@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+<meta charset="UTF=8"/> 
+<title>
+
+ </title>
+  <link rel="stylesheet"  type="text/css" href="demandepret.css">
+
+</head>
+<body>
+ <div class="container">
+ <h1><font family:italic;font-size:30px;color:#6264C2;
+font_color:#D10056;>demande pret</h1>
+<form action="pret.php" method="POST">
+<div class="form-input">
+<table border=0>
+<tr>
+<td>
+
+<font color=#19D9FD>CIN :&nbsp;&nbsp;&nbsp;</td><td><input  type="text" name ="mat_p" placeholder="entre votre CIN"></td>
+</div>
+</tr>
+<tr>
+<div class="form-input">
+
+<td><font color=#19D9FD>montant:</td><td><input  type="text" name ="montant"> <td>
+</div>
+</tr>
+<tr>
+<div class="form-input">
+<td><font color=#19D9FD>date_debut: </td> <td><input type="Date" name="date_deb"> <td>
+</div>
+</tr>
+<tr>
+<div class="form-input">
+<td><font color=#19D9FD>date_Fin: </td> <td><input type="Date" name="date_fin"> <td>
+</div>
+</tr>
+<tr>
+<div class="form-input">
+<td><font color=#19D9FD>Numbr mensualte:</td><td><input  type="text" name ="Nbm"> </td>
+</div>
+</tr>
+
+ </font>
+ </table>		
+			
+ 
+<font color=#19D9FD> Type de pret :</font>
+<br>
+			<input type="radio" name="R1"value="CNSS"/>CNSS
+			<input type="radio" name="R1"value="Voiture"/>Voiture
+			<input type="radio" name="R1"value="Maison"/>Maison<br>
+	 
+	
+ <br><input type ="submit" name="Enregistrer" value="Enregistrer">
+
+
+ 
+</body>
+</html> 
